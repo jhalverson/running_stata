@@ -10,7 +10,7 @@ then browse to [https://myadroit.princeton.edu](https://myadroit.princeton.edu) 
 To begin a session, click on "Interactive Apps" and then "XStata". You will need to choose the "Stata version", "Number of hours" and "Number of cores". Set "Number of cores" to 1 unless you are sure that your script has been explicitly
 parallelized using, for example, the Parallel Computing Toolbox (see below). Click "Launch" and then when your session is ready click "Launch MATLAB". Note that the more resources you request, the more you will have to wait for your session to become available.
 
-![jupyter](https://tigress-web.princeton.edu/~jdh4/matlab_two_frames.png)
+![jupyter](https://tigress-web.princeton.edu/~jdh4/stata_two_frames.png)
 
 ## Submitting Batch Jobs to the Slurm Scheduler
 
