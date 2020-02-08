@@ -87,11 +87,9 @@ Run the command below to see the available Stata versions. For example, on Della
 
 ```
 $ module avail stata
------------------------------ /usr/licensed/Module s/modulefiles -----------------------------
-matlab/R2010a      matlab/R2012a      matlab/R2014b      matlab/R2016b            matlab/R2018b
-matlab/R2010b      matlab/R2013a      matlab/R2015a      matlab/R2017a            matlab/R2019a
-matlab/R2011a      matlab/R2013b      matlab/R2015b      matlab/R2017b(default)   matlab/R2019b
-matlab/R2011b      matlab/R2014a      matlab/R2016a      matlab/R2018a
+---------------- /usr/licensed/Modules/modulefiles -----------------
+stata/11.0          stata/13.0          stata/15.0
+stata/12.0          stata/14.0          stata/16.0(default)
 ```
 
 In your Slurm script, you can either take the default version with `module load stata` or choose a specific version, for example: `module load stata/16.0`.
